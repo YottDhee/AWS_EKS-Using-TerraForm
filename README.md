@@ -17,7 +17,7 @@ $
 mkdir -p ~/environment/terraform; cd ~/environment/terraform
 ~
 $
-curl --remote-name-all https://raw.githubusercontent.com/aws-samples/eks-workshop-v2/stable/cluster/terraform/{main.tf,variables.tf,providers.tf,vpc.tf,eks.tf}
+git clone https://github.com/mithuns1986/EKS-SETUP-USING-TF.git
 Run the following Terraform commands to deploy your workshop environment.
 
 ~
